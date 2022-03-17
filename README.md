@@ -12,3 +12,6 @@ As a user, I would like to use the carbon calculator page, so I can see my impac
 
 As a user, I would like to access a health facts page, so I can see how climate change affects me.
 
+As a user, I would like to see a history of my calculations, so I can track my progress
+
+
