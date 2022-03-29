@@ -3,77 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <style>
-
-        a {
-            color: orange;
-        }
-
-        a:hover {
-            color: green;
-        }
-
-        body {
-            background-color: greenyellow;
-            font-family: sans-serif;
-            margin: auto;
-        }
-
-        h1 {
-
-        }
-
-        #login {
-            margin-top: 1em;
-            margin-bottom: 2em;
-            border: 0;
-            background-color: cyan;
-            color: white;
-            width: 50%;
-            height: 2em;
-        }
-
-        #login-box {
-            width: 20%;
-            height: 20em;
-            margin-top: 10%;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top: 30px;
-            text-align: center;
-            background-color: white;
-            color: gray;
-            box-shadow: 5px 5px green;
-        }
-
-        #password {
-            height: 2em;
-            margin-top: 1em;
-            margin-bottom: 1em;
-            background-color: gainsboro;
-            border: 0;
-            text-align: center;
-        }
-
-        #username {
-            height: 2em;
-            text-align: center;
-            margin-top: 1em;
-            margin-bottom: 1em;
-            background-color: gainsboro;
-            border: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="login-box">
+        <img src="../GreenStep-logos/GreenStep-logos.jpeg" alt="" srcset="" width="50 px">
         <h2>User Login</h2>
         <form action="">
             <span>
                 <input type="text" name="username" id="username" placeholder="Username">
                 <input type="text" name="password" id="password" placeholder="Password">
             </span>
-            <button type="submit" id="login">LOGIN</button>
+            <button type="submit" id="login-button">LOGIN</button>
         </form>
         <a href="" id="forgot-password">Forgot password?</a>
     </div>
