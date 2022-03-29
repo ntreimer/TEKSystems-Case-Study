@@ -13,6 +13,10 @@ body {
   margin: auto;
 }
 
+#forgot-password {
+    padding-bottom: 1em;
+}
+
 h1 {
 }
 
@@ -31,8 +35,8 @@ h1 {
 }
 
 #login-box {
-  width: 20%;
-  height: 20em;
+  width: 20vw;
+  height: 50vh;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
